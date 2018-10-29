@@ -65,6 +65,36 @@
             Отдал Сяоми, вернули Айфон.
           </li>
         </ol>
+		
+		 <h3 style="text-align: center" id="contact">
+        Добавьте отзыв
+      </h3>
+		<form name="review" action="/echo" method="post">
+
+  <p>
+    <label>Введите имя(ссылка на профиль Vk)
+            <input type="text" name="name" autocomplete required>
+        </label>
+  </p>
+
+  <p>
+    <label>Загрузите фото
+            <input name="myphoto" type="file">
+        </label>
+  </p>
+ 
+  <p>
+    <label>Текст отзыва<br>
+            <textarea cols="30" rows="5" name="additional_info"
+                placeholder="Введите текст отзыва"
+            ></textarea>
+        </label>
+  </p>
+
+  <p>
+    <input type="submit" value="Добавить отзыв">
+  </p>
+</form>
       </main>
   <footer>
       <h3 style="text-align: center" id="contact">
