@@ -1,0 +1,40 @@
+<form name="review" action="/echo" method="post">
+
+
+
+
+
+  <p>
+    <label>Введите имя
+            <input type="text" name="name" autocomplete required>
+        </label>
+  </p>
+
+  <p>
+    <label>Введите email
+            <input type="text" name="email" autocomplete required>
+        </label>
+  </p>
+  <p>
+    <label>Поставьте оценку:
+            <select name="variant" required>
+                <option value="1">☆</option>
+                <option value="2">☆☆</option>
+                <option value="3">☆☆☆</option>
+                <option value="4">☆☆☆☆</option>
+                <option value="5">☆☆☆☆☆</option>
+            </select>
+        </label>
+  </p>
+  <p>
+    <label>Текст отзыва<br>
+            <textarea cols="30" rows="5" name="additional_info"
+                placeholder="Введите текст отзыва"
+            ></textarea>
+        </label>
+  </p>
+
+  <p>
+    <input type="submit" value="Отправить">
+  </p>
+</form>
