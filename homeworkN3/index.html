@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MyInstagram</title>
+</head>
+<body>
+	<header>
+		<h1>ФотоКомбы</h1>
+		<img src="images/logo.jpeg">
+	</header>
+
+	<main>
+		<form name="come_in" action="feed.html" method="post">
+			<h2>Войти в свой аккаунт</h2>
+				<p>
+					<label>Введите e-mail:
+						<input type="email" name="email" required>
+					</label>
+				</p>
+
+				<p>
+					<label>Введите пароль:
+						<input type="password" name="pass" required>
+					</label>
+				</p>
+
+				<p>
+					<input type="submit" value="Войти">
+				</p>	
+		</form>	
+
+		<form name="check_in" action="feed.html" method="post">
+			<h2>Создайте новый аккаунт</h2>
+			<p>
+				<label>Введите имя на сервисе:
+					<input type="text" name="nickname" required>
+				</label>
+			</p>
+
+			<p>
+				<label>Введите ваш e-mail:
+					<input type="email" name="email" required>
+				</label>
+			</p>
+
+		 	<p>
+		 		<label>Задайте пароль:
+		 			<input type="password" name="pass" required>
+		 		</label>
+		 	</p>
+
+		 	<p>
+		 		<label>Повторите пароль:
+		 			<input type="password" name="pass_id" required>
+		 		</label>
+		 	</p>
+
+		 	<p>
+		 		<label>Вы согласны с политикой конфиденциальности?</label>
+		 			<input type="checkbox" name="privacy">
+		 	</p>
+
+		 	<p>
+		 		<input type="submit" value="Регистрация">
+		 	</p>
+		</form>
+
+			
+	</main>
+</body>
+</html>
