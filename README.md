@@ -1,4 +1,4 @@
-Ответы на первое ДЗ
+# Ответы на первое ДЗ
 
 1)301
 
@@ -10,7 +10,7 @@
 https://jsfiddle.net/fOrestart/fw6b49va/15/  1 задача
 https://jsfiddle.net/fOrestart/fw6b49va/37/	 2 задача
 
-Задание по основам HTML
+# Задание по основам HTML
 
 1)Мобильный сервис - https://github.com/AdukarIT/StrunevskiEV/tree/master/homeworkN2
 
