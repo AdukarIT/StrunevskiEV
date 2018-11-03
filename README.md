@@ -16,7 +16,7 @@ https://jsfiddle.net/fOrestart/fw6b49va/37/	 2 задача
 
 2)Магазин техники - https://github.com/AdukarIT/StrunevskiEV/tree/master/homeworkN2.2
 
- Задание по теме продвинутый HTML
+# Задание по теме продвинутый HTML
  
  1)Социальная сеть - https://github.com/AdukarIT/StrunevskiEV/tree/master/homeworkN3
  
