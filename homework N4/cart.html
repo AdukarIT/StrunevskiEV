@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Техника для дома</title>
+	<link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+	<header>
+		<h1>ТехноМан</h1>		
+		<div id="#nav">
+			<ul class="main-menu">
+				<li><a href="#">Бытовая техника</a>
+					<ul class="submenu">
+						<li><a href="#">Стиральные машины</a></li>
+						<li><a href="#">Пылесосы</a></li>
+						<li><a href="#">Швейные, вышивальные машины</a></li>
+						<li><a href="#">Утюги</a></li>
+						<li><a href="#">Электровеники</a></li>
+						<li><a href="#">Сушилки для обуви</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Техника для кухни</a>
+					<ul class="submenu">
+						<li><a href="#">Холодильники</a></li>
+						<li><a href="#">Кухонные плиты</a></li>
+						<li><a href="#">Морозильники</a></li>
+						<li><a href="#">Настольные плиты</a></li>
+						<li><a href="#">Ростеры, мини-печи</a></li>
+						<li><a href="#">Вытяжки</a></li>
+						<li><a href="#">Микроволновые печи</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Компьютерная техника</a>
+					<ul class="submenu">
+						<li><a href="#">Ноутбуки</a></li>
+						<li><a href="#">Планшеты</a></li>
+						<li><a href="#">Компьютеры, моноблоки</a></li>
+						<li><a href="#">Игровые приставки</a></li>
+						<li><a href="#">Серверное оборудование</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Корзина</a></li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<h2>Оформить заказ</h2>
+		<form class="delivery-form" action="" name="devivery" method="post">
+			
+			<div class="row">
+				<label class="delivery-form__label">Ваша фамилия</label>
+				<input type="text" name="fname" placeholder="Фамилия" required>
+			</div>
+			
+			<div class="row">
+				<label class="delivery-form__label">Ваше имя</label>
+				<input type="text" name="sname" placeholder="Имя" required>
+			</div>	
+			
+			<div class="row">
+				<label class="delivery-form__label">Ваш номер телефона</label>
+				<input type="phone" name="phone" placeholder="номер телефона" placeholder>
+			</div>	
+			
+			<div class="row">
+				<label class="delivery-form__label">Ваш Email</label>
+				<input type="email" name="email" placeholder="email" required>
+			</div>	
+
+			<div class="row">
+				<label class="radiobox delivery-form__label">Выберите способ доставки</label>
+				<input id="courier" type="radio" name="radio" value="courier">
+				<label class="courier" for="courier">Курьером</label>
+				<input id="self" type="radio" name="radio" value="self">
+				<label for="self">Самовывоз по адресу</label>
+
+
+				<label for="nemiga-map" class="switch-nemiga"><span class="nemiga">Немига 5</span></label>
+				<input id="nemiga-map" type="checkbox" name="nemiga">
+
+
+
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.6927553773658!2d27.5478029343526!3d53.90166470968798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1542205689465"
+					width="400" height="300" style="border:0" allowfullscreen></iframe>
+				</div>
+
+				<div class="row adress-invisible">
+					<label class="delivery-form__label">Адрес доставки</label>
+					<input type="text" name="adress" placeholder="Адрес" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<label class="delivery-form__label">Коментарии к заказу</label>
+				<textarea name="msg" placeholder="Комментарий к заказу" cols="40" rows="5"></textarea>
+			</div>	
+
+			<div class="row"><label class="switch">Я прочитал и согласен с условиями доставки<input type="checkbox" name="aregee">	
+				<button class="button">Оформить заказ</button></label>
+			</div>
+
+		</form>
+	</main>
+	<footer>
+		<h3>Сзязаться с нами:</h3>
+		 <div>
+		 	<p>Время работы магазина: 19-00:21-00</p>
+		 	<p>Наш адрес: ул.Немига 5</p>
+		 	<p>+375441234567 velcom</p>
+		 	<p>+375331234567 mts</p>
+		 	<p>+375251234567 life</p>
+		 	<p>@tehnoman skype</p>
+		 </div>
+	</footer>
+</body>
+</html>
