@@ -1,0 +1,39 @@
+
+.like {
+	width: 120px;
+	margin: 50px;
+	padding: 10px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #ffe45e;
+}
+
+.like__text {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	line-height: 0;
+	text-decoration: none;
+	color: green;
+}
+
+.like__checkbox[type="checkbox"] {
+	display: none;
+}
+
+.heart {
+	color: gray;
+}
+
+.switch :hover {
+	color: blue;
+}
+
+#checkbox:checked~.heart {
+	color: red;
+}
+
+#checkbox:checked~.heart:hover {
+	color: rgba(255,0,0,0.7);
+}

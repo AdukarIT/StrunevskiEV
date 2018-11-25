@@ -1,0 +1,12 @@
+.background {
+	width: 100%;
+	min-height: 700px;
+	max-height: 1000px;
+	background-image: 
+	url("images/sun.png"),
+	url("images/sea.jpg"),
+	url("images/sky.jpg");
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-size: 15% auto, 100% 30%, 30% 30%;
+	background-position: 80% 40%, 0 100%, 0 0;
+}
