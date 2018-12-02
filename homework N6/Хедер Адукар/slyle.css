@@ -1,0 +1,220 @@
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.header {
+	padding: 0px;
+	margin: 0px;
+	height: 630px;
+	background-image:	linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(46,18,18,0.6)), url('images/adukar_bg.jpg');
+	background-position: center, center;
+	background-size: cover 100%, 100%;
+	position: relative;
+}
+
+
+/*
+.header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+}
+*/
+.nav {
+	
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__leftbar {
+	flex-basis: 15%;
+	z-index: 2;
+	margin-left: 30px;
+}
+
+.nav__centerbar {
+	flex-basis: auto;
+	z-index: 2;
+}
+
+.nav__rightbar {
+	z-index: 2;
+	flex-basis: 15%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.nav__rigthbar_link-phone {
+	font-family: 'Roboto';
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+
+.nav__centerbar_info {
+	font-family: 'Roboto';
+	font-size: 17px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+	margin-right: 25px;
+}
+.nav__centerbar_contacts {
+	font-family: 'Roboto';
+	font-size: 17px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+}
+
+.nav__rightbar__social-icon_vk {
+	padding-right: 7px;
+}
+
+.nav__rightbar__social-icon_insta {
+	padding-right: 7px;
+}
+.nav__centerbar_info:hover {
+	border-bottom: 3px solid white;
+}
+.nav__centerbar_contacts:hover {
+	border-bottom: 3px solid white;
+}
+
+
+/* Выше стили навигации */
+
+.content {
+	margin-top: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	z-index: 3;
+}
+
+.content__headline {
+	font-family: 'Roboto';
+	font-size: 50px;
+	line-height: 1.05;
+	font-weight: 600;
+	color: #fff;
+ 	z-index: ;
+}
+
+.content__headline_text {
+	font-size: 25px;
+  font-family: 'Roboto';
+  line-height: 1.05;
+  font-weight: 300;
+  color: #fff;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.content__info {
+	margin-top: 50px;
+	margin-left: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.content__info__exam {
+	width: 350px;
+	position: relative;
+}
+.content__info__mortarboard {
+	width: 400px;
+	position: relative;
+}
+.content__info__backpack {
+	width: 400px;
+	position: relative;
+}
+.content__info_text {
+	display: block;
+	width: 230px;
+	position: absolute;
+	top: 10px;
+	left: 75px;
+	font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.55;
+  font-weight: 400;
+  color: #fff;
+}
+.content__info_text-backpack {
+	display: block;
+	width: 270px;
+	position: absolute;
+	top: 10px;
+	left: 75px;
+	font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.55;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* Выше стили контента */
+
+
+.button-content {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content__info__mortarboard {
+	margin-left: 25px;
+}
+
+
+.button-content__text {
+	font-family: 'Roboto';
+	font-size: 18px;
+	color: #fff;
+  line-height: 1.05;
+  font-weight: 300;
+}
+
+.button-content__link {
+	color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  line-height: 1.55;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #e55;
+  background-position: center center;
+  border-color: #e55;
+  border-style: solid;
+	text-decoration: none;
+  padding: 8px 12px;
+}
+
+.button-content__link:hover {
+	color: #e55;
+	background-color: #fff;
+}

@@ -5,13 +5,13 @@
   background-color: #ffa;
 }
 
-.main-menu li {
-  display: inline;
+.main-menu > li {
+  display: inline-block;
   position: relative;
 }
 
 .main-menu a {
- display: inline-block;
+ display: block;
  padding: 10px 40px 10px 10px;
  border-left: 2px solid #aaf;
  text-decoration: none;
