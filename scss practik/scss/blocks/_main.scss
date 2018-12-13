@@ -1,0 +1,40 @@
+.main {
+    background-color: $main_bgc;
+    .logo {
+      margin: 0px;
+      .logo_image {
+        padding: 5px;
+        @include img_setting(40px);
+        border: 1px solid green;
+      }
+      .title-fing {
+        @include title_setting(20px);
+      }
+    }
+    .services {
+      .title {
+        @include title_setting(30px);
+      }
+      .services__menu {
+        list-style-type: none;
+        li {
+          width: 200px;
+          height: 50px;
+          padding: 10px;
+          @include title_setting(15px);
+          color: #000;
+        }
+        li:hover {
+          color: #fff;
+        }
+      }
+    }
+   #devices {
+      @include title_setting(30px);
+   }
+   .devices {
+     .devices__item {
+       @include img_setting(50px)
+     }
+   }
+  }

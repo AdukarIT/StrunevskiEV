@@ -1,0 +1,7 @@
+@mixin title_setting($font-size) {
+  font-size: $font-size;
+  font-family: 'Verdana', sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+}

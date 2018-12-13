@@ -1,0 +1,34 @@
+.header {
+    background-color: $header_bgc;
+    .title {
+      @include title_setting(40px);
+      text-align: center;
+    }
+    .header__navbar {
+      margin: 0px;
+      .header__navmenu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px;
+        padding-bottom: 20px;
+        margin: 0px;
+        .header__navmenu_item {
+          list-style-type: none;
+          flex-basis: 25%;
+        }
+        .header__navmenu_link {
+          display: block;
+          text-align: center;
+          padding: 10px;
+          @include title_setting(15px);
+          color: #000;
+        }
+        .header__navmenu_link:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+  }

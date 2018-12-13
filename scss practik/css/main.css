@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@imort "_image-bgc";
+.header {
+  background-color: #e7e3b4;
+}
+.header .title {
+  font-size: 40px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+  text-align: center;
+}
+.header .header__navbar {
+  margin: 0px;
+}
+.header .header__navbar .header__navmenu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.header .header__navbar .header__navmenu .header__navmenu_item {
+  list-style-type: none;
+  flex-basis: 25%;
+}
+.header .header__navbar .header__navmenu .header__navmenu_link {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+}
+.header .header__navbar .header__navmenu .header__navmenu_link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.main {
+  background-color: #ccc;
+}
+.main .logo {
+  margin: 0px;
+}
+.main .logo .logo_image {
+  padding: 5px;
+  width: 40px;
+  height: auto;
+  border: 1px solid green;
+}
+.main .logo .title-fing {
+  font-size: 20px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+}
+.main .services .title {
+  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+}
+.main .services .services__menu {
+  list-style-type: none;
+}
+.main .services .services__menu li {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+  color: #000;
+}
+.main .services .services__menu li:hover {
+  color: #fff;
+}
+.main #devices {
+  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+}
+.main .devices .devices__item {
+  width: 50px;
+  height: auto;
+}
+
+.footer {
+  background-color: #e7e3b4;
+  padding: 0px 0px 0px 40px;
+}
+.footer #contact {
+  font-size: 20px;
+  font-family: "Verdana", sans-serif;
+  color: #e75e5e;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  left: -40px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,12 @@
+.footer {
+   background-color: $footer_bgc;
+   padding: 0px 0px 0px 40px;
+   #contact {
+     @include title_setting(20px);
+     margin: 0px;
+     position: relative;
+     top: 0px;
+     left: -40px;
+   }
+ }
+

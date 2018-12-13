@@ -1,0 +1,14 @@
+
+$header_bgc: #e7e3b4;
+$main_bgc: #ccc;
+$footer_bgc: #e7e3b4;
+
+@mixin img_setting($width) {
+  width: $width;
+  height: auto;
+}
+
+@import "_reset";
+@imort "_image-bgc";
+@import "_fonts";
+
