@@ -1,0 +1,12 @@
+.container {
+	width: 66px;
+	height: 135px;
+	background-image: url(sheet.jpg);
+	background-position: top left;
+	transition: background-position 0.3s steps(6);
+}
+
+
+.container:hover {
+	background-position: top right;
+}
