@@ -51,4 +51,6 @@ https://jsfiddle.net/fOrestart/fw6b49va/37/	 2 задача
  # CSS анимации
  https://github.com/AdukarIT/StrunevskiEV/tree/master/css%20%D0%90%D0%BD%D0%B8%D0%BC%D0%BC%D0%B0%D1%86%D0%B8%D0%B8
  
+ # JS циклы
+ https://github.com/AdukarIT/StrunevskiEV/commit/5463c91215c7729b261488ef5b9c1b5c642b437f
  
