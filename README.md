@@ -54,3 +54,7 @@ https://jsfiddle.net/fOrestart/fw6b49va/37/	 2 задача
  # JS циклы
  https://github.com/AdukarIT/StrunevskiEV/commit/5463c91215c7729b261488ef5b9c1b5c642b437f
  
+ # JS функции 
+
+ https://github.com/AdukarIT/StrunevskiEV/tree/master/home2JS
+ 
