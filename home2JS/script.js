@@ -6,7 +6,7 @@ function minNumber( a, b, c ) {
 		return c;
 	} else if ( a > b && c > b) {
 		return b;
-	} else if ( b > a && c > a) {
+	} else if ( b > a && c > a) { // проверка избыточна
 		return a;
 	}
 }
@@ -20,10 +20,10 @@ console.log('.........№2........');
 var seconds;
 
 function calcSecond( day, hours, minut ) {
-	day = 24 * 60 * 60 * day;
+	day = 24 * 60 * 60 * day; // в переменной перестали находится дни
 	hours = 60 * 60 * hours;
 	minut = 60 * minut;
-	seconds = day + hours + minut;
+	seconds = day + hours + minut; 
 	return seconds;
 }
 
@@ -38,7 +38,7 @@ function factorial(n) {
 	
 	if (n != 1) {
 		return n * factorial(n - 1);
-	} else return(n);
+	} else return(n); // скобки не нужны и else избыточен
 }
 
 console.log( factorial(7) );
@@ -55,10 +55,10 @@ console.log(a);
 function	showMirrorNum(a) {
 	
 	if (a < 10) { 
-		return String(a); 
+		return String(a);
 	} 
 	else { 
-		return String(a % 10 + showMirrorNum((a - (a % 10)) / 10)); 
+		return String(a % 10 + showMirrorNum((a - (a % 10)) / 10)); // сложночитаемо
 	} 
 } 
 
@@ -68,7 +68,7 @@ console.log( showMirrorNum(a) );
 console.log('.........№5........');
 
 function equation(a, b, c) { 
-var d = b * b - 4 * a * c; 
+var d = b * b - 4 * a * c; // b**2
 if (d < 0) { 
 console.log("Корней нет") 
 } 
