@@ -58,3 +58,15 @@ https://jsfiddle.net/fOrestart/fw6b49va/37/	 2 задача
 
  https://github.com/AdukarIT/StrunevskiEV/tree/master/home2JS
  
+ # JS array 
+ 
+ https://github.com/AdukarIT/StrunevskiEV/tree/master/array
+ 
+ # JS obj
+ 
+ https://github.com/AdukarIT/StrunevskiEV/tree/master/obj
+ 
+ # JS встроенные возможности
+ 
+ https://github.com/AdukarIT/StrunevskiEV/tree/master/js%20%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8
+ 
