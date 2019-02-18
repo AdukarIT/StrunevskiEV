@@ -4,7 +4,7 @@
 function palindromCheck(str) {
 	var newStr;
 	newStr = str.split("").reverse();
-	console.log(newStr);
+	console.log(newStr); // я вам не рекомендую в практике использовать консоль логи, а тут уж они подавно не нужны
 	newStr = newStr.join("");
 	console.log(newStr);
 	if (str == newStr) 
@@ -61,7 +61,7 @@ console.log(endResult); // вывел в объект
  res[current] = 1; 
  } 
  } 
- console.log(res) 
+ console.log(res) // не доделали задачку, нужно было вывести самый повторяющийся а не все
  } 
 
  repeat('abcaba');  // повторения каждой буквы
@@ -71,7 +71,7 @@ console.log(endResult); // вывел в объект
 //задача 5 
 function searchAndChange (str, search, replace) {
 	while (str.indexOf(search) >= 0) {
-    str = str.slice(0, str.indexOf(search)) + replace + str.slice(str.indexOf(search) + search.length, str.length);
+    str = str.slice(0, str.indexOf(search)) + replace + str.slice(str.indexOf(search) + search.length, str.length); // нужно такую колбасу разбивать, например какую-то часть обернуть в функцию
   }
 
   return str;
@@ -81,12 +81,12 @@ console.log(searchAndChange('Шла Саша по шоссе и сосала с�
 
 //задача 6 
 
-function littleBig(str) {
+function littleBig(str) { // это имя рэппера?) firstLetterToUppercase
   str = str[0].toUpperCase() + str.slice(1, str.length);
 
   for (var i = 0; i < str.length; i++) {
     if (str[i - 1] === ' ') {
-      str = str.slice(0, i) + str[i].toUpperCase() + str.slice(i + 1, str.length);
+      str = str.slice(0, i) + str[i].toUpperCase() + str.slice(i + 1, str.length); // аналогично
     }
   }
 
